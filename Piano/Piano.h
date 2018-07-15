@@ -1,7 +1,7 @@
 #include<iostream>
 #include<Windows.h>
 
-                         //qǰ׺Ϊ������1��׺Ϊ������sǰ׺Ϊ������
+                         //q前缀为低音，1后缀为高音，s前缀为半音阶
 #define q 523           //#define do 523
 #define w 578           //#define re 578
 #define e 659           //#define mi 659
@@ -29,6 +29,7 @@
 #define k 831          //#define sso 831
 #define l 932          //#define sla 932
 
+//这些是因为只有26个键而没法模拟出来的音调
 //#define sqdo 277         //#define sqdo 277
 //#define sqre 311         //#define sqre 311
 //#define sqfa 370         //#define sqfa 370
